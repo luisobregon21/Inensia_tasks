@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+mCX5arc6o5nbu2zlE8SlQQOnEOAkMbysm+V9B7tyLziIfiq3YduiFW84axtODwcBzA0Mlz/WfnX9PjDgbrokw==",
+  "success": true,
+  "projectFilePath": "/home/luis/Interviews/Inensia_tasks/Task1/Inensia_tasks.csproj",
+  "expectedPackageFiles": [
+    "/home/luis/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
