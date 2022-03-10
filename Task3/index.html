@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <!--Create a function that, given a DOM Element on the page, will return an array that contains the element
+itself and all its descendants (not just its immediate children).-->
+
+  <head>
+    <title>Task 3</title>
+    <script>
+      function allElements() {
+        const input = document.querySelector("#input").value;
+        let element = document.querySelector(input);
+
+        const allKids = (element) => {
+          if (element.children.length === 0) return [element];
+
+          let allChildren = [];
+
+          for (let idx = 0; idx < element.children.length; idx++) {
+            let children = allKids(element.children[idx]);
+            if (children) allChildren.push(...children);
+          }
+          allChildren.push(element);
+          return allChildren;
+        };
+        const myKids = allKids(element);
+        const final = [];
+        myKids.forEach(element => {
+          final.push(element.localName)
+        });
+        console.log(final);
+        // const kids = Array.from(element.children);
+
+        // kids.forEach((element) => {
+        //   console.log(Array.from(element?.children));
+        // });
+        // Array.prototype.push.apply(arrayKids, Array.from(kids[0].children));
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Sample Page</h1>
+    <input type="text" id="input" placeholder="Please enter a DOM element" />
+    <button id="answer" onclick="allElements()">Submit</button>
+    <div id="row">
+      <div id="col1">
+        <h2>Section 1</h2>
+        <p>
+          <a href="#"> Lorem ipsum dolor</a> sit amet consectetur adipisicing
+          elit. Minima illo a modi quam dignissimos. Animi provident aliquid,
+          nesciunt non praesentium quas doloremque dolore recusandae fugiat
+          adipisci aspernatur expedita exercitationem sapiente.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil est id
+          eveniet veritatis, dolorum ea ad sapiente voluptatem impedit ut ipsam
+          voluptas hic minus recusandae similique soluta laboriosam quod
+          delectus!
+        </p>
+      </div>
+    </div>
+    <footer>
+      <ul id="bottomMenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
