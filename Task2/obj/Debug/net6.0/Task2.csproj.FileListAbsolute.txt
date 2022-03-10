@@ -1,0 +1,15 @@
+/home/luis/Interviews/Inensia_tasks/Task2/bin/Debug/net6.0/Task2
+/home/luis/Interviews/Inensia_tasks/Task2/bin/Debug/net6.0/Task2.deps.json
+/home/luis/Interviews/Inensia_tasks/Task2/bin/Debug/net6.0/Task2.runtimeconfig.json
+/home/luis/Interviews/Inensia_tasks/Task2/bin/Debug/net6.0/Task2.dll
+/home/luis/Interviews/Inensia_tasks/Task2/bin/Debug/net6.0/Task2.pdb
+/home/luis/Interviews/Inensia_tasks/Task2/obj/Debug/net6.0/Task2.csproj.AssemblyReference.cache
+/home/luis/Interviews/Inensia_tasks/Task2/obj/Debug/net6.0/Task2.GeneratedMSBuildEditorConfig.editorconfig
+/home/luis/Interviews/Inensia_tasks/Task2/obj/Debug/net6.0/Task2.AssemblyInfoInputs.cache
+/home/luis/Interviews/Inensia_tasks/Task2/obj/Debug/net6.0/Task2.AssemblyInfo.cs
+/home/luis/Interviews/Inensia_tasks/Task2/obj/Debug/net6.0/Task2.csproj.CoreCompileInputs.cache
+/home/luis/Interviews/Inensia_tasks/Task2/obj/Debug/net6.0/Task2.dll
+/home/luis/Interviews/Inensia_tasks/Task2/obj/Debug/net6.0/refint/Task2.dll
+/home/luis/Interviews/Inensia_tasks/Task2/obj/Debug/net6.0/Task2.pdb
+/home/luis/Interviews/Inensia_tasks/Task2/obj/Debug/net6.0/Task2.genruntimeconfig.cache
+/home/luis/Interviews/Inensia_tasks/Task2/obj/Debug/net6.0/ref/Task2.dll
